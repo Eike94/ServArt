@@ -4,7 +4,7 @@ generator client {
 
 datasource db {
   provider = "mongodb"
-  url      = "mongodb+srv://caiquemagalhaes:im8Nm2pfLZHJ8cCD@bdarte.y8h9p.mongodb.net/mydatabase?retryWrites=true&w=majority"
+  url      = ""
 }
 
 model Servico {
