@@ -1,0 +1,94 @@
+/* Container principal do recibo */
+.receipt-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #282828;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  /* Título do recibo */
+  .receipt-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: #282828;
+  }
+  
+  /* Filtro de datas */
+  .date-filter {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    background-color: #282828;
+  }
+  
+  .date-filter label {
+    font-size: 14px;
+    background-color: #282828;
+    color: #aaa;
+  }
+  
+  .date-filter input {
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #2e2e2e;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  /* Lista de serviços */
+  .receipt-list {
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    background-color: #282828;
+  }
+  
+  .receipt-list li {
+    background-color: #2b2b2b;
+    border: 1px solid #444;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: #ddd;
+    font-size: 16px;
+    
+  }
+  
+  /* Total */
+  .receipt-total {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #fc8787;
+    background-color: #282828;
+  }
+  
+  /* Botão para gerar PDF */
+  .generate-pdf-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #2b5b2e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .generate-pdf-button:hover {
+    background-color: #3d873f;
+  }
+  

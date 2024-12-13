@@ -1,0 +1,102 @@
+/* Estilo geral da tabela */
+table {
+    width: 100%;
+    max-width: 800px;
+    margin: 50px auto;
+    border-collapse: collapse;
+    background-color: #282828;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* Cabeçalho da tabela */
+  table thead {
+    background-color: #282828;
+  }
+  
+  table thead th {
+    background-color: #282828;
+    padding: 15px;
+    text-align: left;
+    font-size: 16px;
+    color: #aaa;
+    border-bottom: 2px solid #444;
+  }
+  
+  /* Corpo da tabela */
+  table tbody tr {
+    background-color: #282828;
+    border-bottom: 1px solid #444;
+    transition: background-color 0.2s;
+  }
+  
+  table tbody tr:nth-child(even) {
+    background-color: #2e2e2e;
+  }
+  
+  table tbody tr:hover {
+    background-color: #3d3d3d;
+  }
+  
+  table tbody td {
+    background-color: #282828;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  /* Botões de ação */
+  table tbody td button {
+    margin: 2px;
+    padding: 8px 12px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #2b5b2e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  table tbody td button:hover {
+    background-color: #3d873f;
+  }
+  
+  table tbody td button:nth-child(2) {
+    background-color: #b52929;
+  }
+  
+  table tbody td button:nth-child(2):hover {
+    background-color: #d94444;
+  }
+
+  /* Input do editar */
+  input{
+    width: 90%;
+    padding: 5%;
+    background-color: #aaa;
+    border:none;
+    border-radius: 5%;
+    font-size:11pt;
+    outline: none;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    table {
+      font-size: 12px;
+    }
+  
+    table thead th,
+    table tbody td {
+      padding: 10px;
+    }
+  
+    table tbody td button {
+      font-size: 12px;
+      padding: 6px 10px;
+    }
+  }
+  

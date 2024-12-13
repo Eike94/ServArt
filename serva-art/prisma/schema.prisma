@@ -1,0 +1,25 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = "mongodb+srv://caiquemagalhaes:im8Nm2pfLZHJ8cCD@bdarte.y8h9p.mongodb.net/mydatabase?retryWrites=true&w=majority"
+}
+
+model Servico {
+  id       String   @id @default(auto()) @map("_id") @db.ObjectId
+  cliente  String
+  data     DateTime @db.Date
+  servico1 String
+  servico2 String?
+  valor    Float
+}
+
+model User {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  createdAt DateTime @db.Date
+  email     String   @unique
+  name      String
+  password  String
+}

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;;
+}
+/* Estilo dos botões do cabeçalho */
+header button {
+    background-color: #2e2e2e; /* Fundo escuro */
+    color: #fff; /* Texto branco */
+    border: 1px solid #444; /* Borda leve */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 10px 15px; /* Espaçamento interno */
+    margin: 5px; /* Espaçamento entre os botões */
+    font-size: 14px; /* Tamanho do texto */
+    cursor: pointer; /* Cursor de clique */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Animação suave */
+  }
+  
+  /* Hover e foco */
+  header button:hover,
+  header button:focus {
+    background-color: #3d873f; /* Cor de destaque ao passar o mouse */
+    color: #fff; /* Cor do texto no hover */
+    border: 1px solid #3d873f; /* Borda combinando com a cor de destaque */
+  }
+  
+  /* Botão ativo (selecionado) */
+  header button.active {
+    background-color: #3d873f; /* Cor de destaque */
+    color: #fff;
+    border: 1px solid #3d873f;
+  }
+  
+  /* Responsividade para o cabeçalho */
+  header {
+    display: flex;
+    justify-content: center; /* Centraliza os botões */
+    flex-wrap: wrap; /* Permite quebra de linha em telas menores */
+    gap: 10px; /* Espaço entre os botões */
+    padding: 10px 0;
+  }
+  
